@@ -1464,8 +1464,6 @@ export default function App() {
       name: 'Xi măng',
       options: [
         { name: 'Hà Tiên', price: 420000, desc: 'Xi măng đa dụng Hà Tiên' },
-        { name: 'Sông Gianh', price: 420000, desc: 'Xi măng đa dụng Sông Gianh' },
-        { name: 'SCG', price: 420000, desc: 'Xi măng đa dụng SCG' },
         { name: 'Insee', price: 450000, desc: 'Xi măng Insee (Holcim) cao cấp' },
         { name: 'Nghi Sơn', price: 410000, desc: 'Xi măng Nghi Sơn bền sunfat' }
       ]
@@ -1482,22 +1480,22 @@ export default function App() {
       name: 'Gạch',
       options: [
         { name: 'Tuynel Bình Dương', price: 380000, desc: 'Gạch ống 8x8x18' },
-        { name: 'Gạch theo địa phương', price: 420000, desc: 'Gạch xây chất lượng cao' },
-        { name: 'Gạch nhẹ', price: 550000, desc: 'Gạch bê tông khí chưng áp' },
-        { name: 'Việt Hương hoặc khác', price: 650000, desc: 'Gạch ốp lát cao cấp Viet Ceramic' }
+        { name: 'Gạch Đồng Tâm', price: 420000, desc: 'Gạch xây chất lượng cao' },
+        { name: 'Gạch nhẹ AAC', price: 550000, desc: 'Gạch bê tông khí chưng áp' },
+        { name: 'Viet Ceramic', price: 650000, desc: 'Gạch ốp lát cao cấp Viet Ceramic' }
       ]
     },
     {
       name: 'Cát đá',
       options: [
-        { name: 'Theo địa phương', price: 280000, desc: 'Cát vàng, đá 1x2 sạch' },
-        { name: 'Theo địa phương', price: 250000, desc: 'Cát xây tô, đá xanh' }
+        { name: 'Biên Hòa', price: 280000, desc: 'Cát vàng, đá 1x2 sạch' },
+        { name: 'Tây Ninh', price: 250000, desc: 'Cát xây tô, đá xanh' }
       ]
     },
     {
       name: 'Bê tông',
       options: [
-        { name: 'Bê tông tươi', price: 850000, desc: 'Mác 250 R7' },
+        { name: 'Bê tông tươi Holcim', price: 850000, desc: 'Mác 250 R7' },
         { name: 'Bê tông trộn tay', price: 750000, desc: 'Trộn tại công trình' }
       ]
     },
